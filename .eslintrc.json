@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "rules": {
+    "jsx-a11y/alt-text": "warn", // Verifica que las imágenes tengan texto alternativo
+    "jsx-a11y/anchor-is-valid": "warn", // Valida enlaces
+    "jsx-a11y/no-autofocus": "off", // Opcionalmente permite el uso de autofocus
+    "react/react-in-jsx-scope": "off" // Next.js no requiere importar React
+  }
+}
